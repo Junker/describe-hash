@@ -1,9 +1,13 @@
-;;; describe-hash.el --- describe hash
+;;; describe-hash.el --- Help function for examining a hash map
 
 ;; Version: 0.1.0
+;; URL: https://github.com/Junker/describe-hash
+;; Original: https://www.emacswiki.org/emacs/HashMap
+
 
 ;;; Commentary:
-;; from https://www.emacswiki.org/emacs/HashMap
+;; This package provides help function for examining hash map values,
+;; similar to `describe-variable'
 
 ;;; Code:
 
