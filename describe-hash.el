@@ -1,11 +1,17 @@
 ;;; describe-hash.el --- describe hash
+
+;; Version: 0.1.0
+
+;;; Commentary:
 ;; from https://www.emacswiki.org/emacs/HashMap
 
+;;; Code:
+
 (defun describe-hash (variable &optional buffer)
-  "Display the full documentation of VARIABLE (a symbol).
-    Returns the documentation as a string, also.
-    If VARIABLE has a buffer-local value in BUFFER (default to the current buffer),
-    it is displayed along with the global value."
+  "Display the full documentation of VARIABLE (a hash).
+Returns the documentation as a string, also.
+If VARIABLE has a buffer-local value in BUFFER (default to the current buffer),
+it is displayed along with the global value."
   (interactive
    (let ((v (variable-at-point))
          (enable-recursive-minibuffers t)
@@ -32,3 +38,5 @@
              (symbol-value variable))))
 
 (provide 'describe-hash)
+
+;;; describe-hash.el ends here
