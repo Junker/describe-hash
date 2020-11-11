@@ -1,3 +1,6 @@
+[![MELPA](https://melpa.org/packages/describe-hash-badge.svg)](https://melpa.org/#/describe-hash)
+[![MELPA Stable](https://stable.melpa.org/packages/describe-hash-badge.svg)](https://stable.melpa.org/#/describe-hash)
+
 # Describe Hash
 
 ## Intoduction
